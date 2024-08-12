@@ -1,4 +1,7 @@
 # Getting Started
+## Visit the web site deployed at:
+https://indavid04.github.io/leads-tracker-PWA
+
 Install the dependencies and run the project
 ```
 npm install
