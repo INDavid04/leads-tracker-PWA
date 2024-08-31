@@ -2,7 +2,19 @@ body {
     margin: 0 auto;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 302px;
+    max-width: 410px;
+}
+
+footer {
+    font-size: 1.2rem;
+}
+
+footer a {
+    font-weight: bold;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
 }
 
 label {
@@ -20,15 +32,19 @@ input {
 
 button {
     background: #5f9341;
-    color: white;
+    color: #fff;
     padding: 10px 20px;
     border: 1px solid #5f9341;
     font-weight: bold;
     cursor: pointer;
 }
 
+button:focus, button:hover {
+    opacity: 0.7;
+}
+
 #delete-btn {
-    background: white;
+    background: #fff;
     color: #5f9341;
 }
 
